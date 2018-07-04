@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  font-family: "Bitter", serif;
+  outline: none;
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px white;
+  text-align: center;
+}
+.hidden {
+  display: none;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  /* bottom: 0%; */
+  background-color: rgb(199, 226, 243);
+}
+
+header {
+  background-image: url("https://images.unsplash.com/photo-1489389944381-3471b5b30f04?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4868cc90c3c515fb1316574d9aff1640&auto=format&fit=crop&w=1050&q=80");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: white;
+}
+
+header p {
+  font-size: 29px;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px black;
+  padding: 15px;
+}
+
+
+.commonPages {
+  padding: 35px;
+  margin: 7%;
+  bottom: 0%;
+}
+
+#userName, #Klvl {
+  position: relative;
+  display: block;
+  left: 50%;
+  transform: translate(-55%);
+  margin: 30px;
+  padding: 10px;
+  border-radius: 12px;
+  border-color: lemonchiffon;
+  width: 300px;
+}
+
+button {
+  border-radius: 10px 0 10px 0;
+  background-color: yellow;
+  border-color: thistle;
+  padding: 10px;
+  width: 120px;
+  margin: 25px;
+  right: 0;
+}
+
+#question {
+  font-size: 25px;
+  margin: 20px 0 60px 0;
+}
+
+.checkBox {
+  margin: 0px;
+  display: inline-block;
+  margin-right: 15px;
+}
+
+#inputEditor {
+  border-radius: 15px;
+}
+.error {
+  display: hidden;
+}
+form.error input {
+  border: 2px solid red;
+}
+form.error .errorMessage {
+  display: block;
+  color: red;
+  font-size: 15px;
+}
+.errorMessage {
+  display: none;
+}
+/* no internet error message */
+.internetError{
+  display: hidden;
+}
+form.internetError input {
+  border: 2px solid red;
+}
+form.internetError .internetMessage {
+  display: block;
+  color: red;
+  font-size: 15px;
+  }
+.internetMessage{
+  display: none;
+}
+form.internetError p{
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+footer {
+  border-top: 2px solid rgba(0, 225, 255, 0.33);
+  height: 70px;
+  bottom: 0;
+  background-color: rgb(59, 97, 121);
+  width: 100%;
+}
+
+footer a {
+  cursor: pointer;
+}
+
+footer p {
+  display: inline-block;
+  padding: 15px 35px;
+  font-size: 20px;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  vertical-align: 25px;
+}
+
+footer img {
+  padding: 10px 20px;
+  max-width: 50px;
+  max-height: 50px;
+  margin: 0 10px;
+}
+
+@media (max-width: 400px) {
+  .container {
+    width: 100%;
+    display: block;
+  }
+}
